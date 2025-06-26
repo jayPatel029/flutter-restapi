@@ -1,16 +1,74 @@
-# restapi_task
 
-A new Flutter project.
+# Flutter REST API User App
 
-## Getting Started
+A Flutter application that displays a list of users with the ability to:
 
-This project is a starting point for a Flutter application.
+- View full user details
+- Search users
+- Add new users manually (locally)
+- Navigate to detailed user profiles
 
-A few resources to get you started if this is your first Flutter project:
+The app uses `flutter_bloc` for state management and features a modern dark theme and responsive layout.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔗 Live Preview
+
+> [Click here to view the live app (Web)](https://g-fitness-api.web.app/)  
+
+---
+
+## 📦 Features
+
+- BLoC (Cubit) for state management
+- User data modeled via `User`, `Address`, `Company` classes
+- Detailed user view page
+- Responsive UI with `LayoutBuilder`
+- Theming (Dark mode)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/flutter-user-app.git
+cd flutter-user-app
+````
+
+### 2. Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Run the App
+
+```bash
+flutter run
+```
+
+You can also run the app on web:
+
+```bash
+flutter run -d chrome
+```
+
+---
+
+## 📁 How to Download or Use as Template
+
+### Clone via Git
+
+```bash
+git clone https://github.com/your-username/flutter-user-app.git
+```
+
+### Or Download as ZIP
+
+1. Visit the GitHub repository.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract and open in your IDE.
+
